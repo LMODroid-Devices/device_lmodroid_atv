@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2021 The LineageOS Project
+     Copyright (C) 2022 The LibreMobileOS Foundation
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,12 +19,12 @@
 <resources>
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system_ext/priv-app/LineageParts/LineageParts.apk</item>
-        <item>/system_ext/priv-app/LineageParts/LineageParts.apk</item>
+        <item>/system_ext/priv-app/TouchGestures/TouchGestures.apk</item>
+        <item>/system_ext/priv-app/TouchGestures/TouchGestures.apk</item>
     </string-array>
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
-        <item>org.lineageos.lineageparts.atv.KeyHandler</item>
+        <item>com.android.touch.gestures.KeyHandler</item>
+        <item>com.android.touch.gestures.atv.KeyHandler</item>
     </string-array>
 </resources>

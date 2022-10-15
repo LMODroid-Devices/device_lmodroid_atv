@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2019-2022 The LineageOS Project
+# Copyright (C) 2022 The LibreMobileOS Foundation
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,11 +20,11 @@ include $(LOCAL_PATH)/system_prop.mk
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    device/lineage/atv/overlay
+    device/lmodroid/atv/overlay
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.lineage.atv.rc
+    init.lmodroid.atv.rc
 
 # Dynalink 4k
 PRODUCT_PACKAGES += \
@@ -74,7 +75,7 @@ PRODUCT_PACKAGES += \
 
 # priv-app permissions
 PRODUCT_COPY_FILES +=\
-    device/lineage/atv/permissions/privapp-permissions-lineage-atv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-lineage-atv.xml
+    device/lmodroid/atv/permissions/privapp-permissions-lmodroid-atv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-lmodroid-atv.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

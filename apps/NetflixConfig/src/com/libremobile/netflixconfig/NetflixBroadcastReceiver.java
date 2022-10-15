@@ -1,4 +1,4 @@
-package org.lineage.netflixconfig;
+package com.libremobile.netflixconfig;
 
 import android.content.Context;
 import android.content.BroadcastReceiver;
