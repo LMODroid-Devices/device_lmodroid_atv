@@ -27,4 +27,7 @@
         <item>com.android.touch.gestures.KeyHandler</item>
         <item>com.android.touch.gestures.atv.KeyHandler</item>
     </string-array>
+
+    <!--  Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">2</integer>
 </resources>
