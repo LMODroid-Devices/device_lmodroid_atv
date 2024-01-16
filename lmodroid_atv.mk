@@ -66,7 +66,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 # GMS RROs
 PRODUCT_PACKAGES += \
-    LineageGoogleSetupWraithOverlay
+    LineageGoogleSetupWraithOverlay \
+    LineageGoogleSetupWraithPairingOverlay
 
 # Settings
 PRODUCT_PACKAGES += \
