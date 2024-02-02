@@ -26,6 +26,11 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.lmodroid.atv.rc
 
+ifneq ($(TARGET_ATV_FORCE_1080_SCALING),false)
+PRODUCT_PACKAGES += \
+    init.lmodroid.atv.scaling.rc
+endif
+
 # Dynalink 4k
 PRODUCT_PACKAGES += \
     Vendor_0110_Product_0508.idc \
