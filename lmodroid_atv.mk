@@ -60,6 +60,11 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_28de_Product_1102.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_28de_Product_1106.kl \
     frameworks/base/data/keyboards/Vendor_28de_Product_1102.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_28de_Product_1142.kl
 
+# Key layouts for xbox controllers
+PRODUCT_PACKAGES += \
+    Vendor_045e_Product_0b05.kl \
+    Vendor_045e_Product_0b13.kl
+
 # ADT-2/3 reference remote idcs
 PRODUCT_PACKAGES += \
     Vendor_000d_Product_3838.idc \

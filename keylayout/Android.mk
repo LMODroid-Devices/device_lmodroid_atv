@@ -25,6 +25,24 @@ LOCAL_MODULE_PATH   := $(TARGET_OUT_VENDOR)/usr/keylayout
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE        := Vendor_045e_Product_0b05.kl
+LOCAL_SRC_FILES     := Vendor_045e_Product_0b05.kl
+LOCAL_MODULE_TAGS   := optional
+LOCAL_MODULE_CLASS  := ETC
+LOCAL_VENDOR_MODULE := true
+LOCAL_MODULE_PATH   := $(TARGET_OUT_VENDOR)/usr/keylayout
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := Vendor_045e_Product_0b13.kl
+LOCAL_SRC_FILES     := Vendor_045e_Product_0b13.kl
+LOCAL_MODULE_TAGS   := optional
+LOCAL_MODULE_CLASS  := ETC
+LOCAL_VENDOR_MODULE := true
+LOCAL_MODULE_PATH   := $(TARGET_OUT_VENDOR)/usr/keylayout
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE        := Vendor_0955_Product_7212.kl
 LOCAL_SRC_FILES     := Vendor_0955_Product_7212.kl
 LOCAL_MODULE_TAGS   := optional
