@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     Vendor_18d1_Product_9450.idc \
     Vendor_18d1_Product_9450.kl
 
+# Stadia controller
+PRODUCT_PACKAGES += \
+    Vendor_18d1_Product_9400.kl
+
 # IDCs for shield controllers
 PRODUCT_PACKAGES += \
     Vendor_0955_Product_7212.idc \
