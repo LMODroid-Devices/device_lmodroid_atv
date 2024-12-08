@@ -117,11 +117,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TvSettingsTwoPanel
 
-# TVLauncher
-PRODUCT_PACKAGES += \
-    TVLauncherNoGMS \
-    TVRecommendationsNoGMS
-
 # priv-app permissions
 PRODUCT_COPY_FILES +=\
     device/lmodroid/atv/permissions/privapp-permissions-lmodroid-atv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-lmodroid-atv.xml
