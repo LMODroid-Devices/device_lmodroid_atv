@@ -1,3 +1,8 @@
+/*
+ * SPDX-FileCopyrightText: 2021-2023 The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 package com.libremobile.netflixconfig;
 
 import android.content.Context;
