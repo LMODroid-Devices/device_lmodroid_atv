@@ -1,3 +1,8 @@
+#
+# SPDX-FileCopyrightText: 2020-2024 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
 # ABI Checks
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.wm.disable_deprecated_abi_dialog=true
