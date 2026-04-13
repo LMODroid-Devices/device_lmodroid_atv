@@ -1,6 +1,6 @@
 #
-# SPDX-FileCopyrightText: 2019-2024 The LineageOS Project
-# SPDX-FileCopyrightText: 2022 The LibreMobileOS Foundation
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The LibreMobileOS Foundation
 # SPDX-License-Identifier: Apache-2.0
 #
 
